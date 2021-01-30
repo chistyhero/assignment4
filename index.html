@@ -124,8 +124,8 @@
 
         function subTotal(){
             var firstClassInput = document.getElementById("first-class-input").value;
-            var economyInput = document.getElementById("economy-class-input").value;
             firstClassInput = parseInt(firstClassInput);
+            var economyInput = document.getElementById("economy-class-input").value;
             economyInput = parseInt(economyInput);
             var total = firstClassInput * 150 + economyInput * 100;
             document.getElementById("subtotal").innerText = total;
